@@ -1,0 +1,9 @@
+.ipynb_checkpoint/
+
+*.pyc
+
+*.png
+
+*.log
+
+
