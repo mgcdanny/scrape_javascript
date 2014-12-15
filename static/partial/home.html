@@ -1,0 +1,17 @@
+<div class="page-header">
+  		<h1>Hard Site to Scrape! <small>because all the data is dynamically loaded with (Angular) JS</small></h1>
+</div>
+<div class="theData">
+	<div ng-controller="homeCtrl">
+		<div ng-repeat="phone in phones" class="text-center">
+			<div>
+				{{phone.name}}
+				{{phone.snippet}}
+				${{phone.price}}
+			</div>
+		</div>	
+	</div>
+</div>		
+
+
+
